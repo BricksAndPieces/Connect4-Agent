@@ -1,0 +1,21 @@
+# Compiled files
+/target/
+
+# Cargo.lock file
+Cargo.lock
+
+# Build output
+Cargo.toml.orig
+Cargo.toml.bkp
+
+# Generated documentation
+/doc/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Editor backup files
+*~
+*.swp
+*.bak
