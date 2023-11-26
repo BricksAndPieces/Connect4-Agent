@@ -35,15 +35,15 @@ To get started with the Connect 4 agent, follow these steps:
 
 1. Clone the repository
 
-2. Build and run the backend solver:
+2. Build and run the backend solver (in webserver mode):
     ```shell
     $ cd connect4/backend
     $ cargo run --release compiled_db.bin --webserver
     ```
 
-3. Build and run the frontend UI:
+3. In a new terminal, build and run the frontend UI:
     ```shell
-    $ cd ../frontend
+    $ cd connect4/frontend
     $ npm install
     $ npm run dev
     ```
